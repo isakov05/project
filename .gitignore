@@ -1,0 +1,28 @@
+# Ignore the full model directory
+custom-food-model-v1/
+
+# Ignore any model files anywhere
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Ignore HuggingFace training output
+checkpoint-*/
+training_args.bin
+trainer_state.json
+optimizer.pt
+scheduler.pt
+rng_state.pth
+
+# Ignore any config copies from model
+config.json
+preprocessor_config.json
+
+# Common ignores
+__pycache__/
+*.log
+*.tmp
+*.DS_Store
