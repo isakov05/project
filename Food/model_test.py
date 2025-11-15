@@ -9,7 +9,7 @@ processor = AutoImageProcessor.from_pretrained(model_path)
 model = AutoModelForImageClassification.from_pretrained(model_path)
 
 # Path to your test image
-image_path = r"C:\Users\ASUS\Desktop\mp_project\Food\test_images\burger.jpg"
+image_path = r"C:\Users\ASUS\Desktop\mp_project\Food\test_images\plov1.jpg"
 
 # Preprocess
 image = Image.open(image_path).convert("RGB")
